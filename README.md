@@ -32,15 +32,15 @@
     <circle cx="700" cy="120" r="12" fill="none" stroke="#f15bb5" stroke-opacity="0.3" stroke-width="1.5"/>
 
     <!-- Text Layer -->
-    <text x="60" y="85" font-size="34" font-weight="800" fill="url(#textGradient)">👋 Hi, I'm Molu</text>
-    <text x="60" y="125" font-size="18" font-weight="500" fill="#E2E8F0">Open Source Developer • AI Agent Builder • Automation Architect</text>
-    <text x="60" y="155" font-size="14" font-weight="400" fill="#94A3B8">Building useful tools, optimizing developer workflows, and pioneering local AI integrations.</text>
+    <text x="60" y="85" font-size="34" font-weight="800" fill="url(#textGradient)">👋 你好，我是 Molu</text>
+    <text x="60" y="125" font-size="18" font-weight="500" fill="#E2E8F0">开源开发者 • AI Agent 构建者 • 自动化架构师</text>
+    <text x="60" y="155" font-size="14" font-weight="400" fill="#94A3B8">构建实用工具，优化开发工作流，积极探索本地 AI 深度集成。</text>
   </svg>
 </p>
 
 <!-- Dynamic Badges and Info -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=Building+Smart+Tools.;AI+Agents+%7C+MCP+Ecosystem+%7C+Automation.;Windows+%26+Android+Automation.;Always+Learning%2C+Always+Creating." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=%E6%9E%84%E5%BB%BA%E6%99%BA%E8%83%BD%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7;AI+Agents+%7C+MCP+%E7%94%9F%E6%80%81+%7C+%E6%99%BA%E8%83%BD%E8%87%AA%E5%8A%A8%E5%8C%96;Windows+%26+Android+%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7;%E6%8C%81%E7%BB%AD%E5%AD%A6%E4%B9%A0%EF%BC%8C%E7%83%AD%E7%88%B1%E5%BC%80%E6%BA%90%E4%B8%8E%E5%88%9B%E9%80%A0" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -51,22 +51,22 @@
 
 ---
 
-### 🚀 About Me
+### 🚀 关于我
 
 <table border="0">
   <tr>
     <td width="55%" valign="top">
-      <p>I am an open-source engineer focused on building practical, high-performance software that solves real-world bottlenecks. I love bridging the gap between cutting-edge Artificial Intelligence and daily developer productivity.</p>
-      <p>🧠 <b>Philosophy:</b> Build elegant, reliable, and highly functional tools. Less complexity, more utility.</p>
-      <p>⚡ <b>Current Focus:</b> Designing dynamic <b>AI Agents</b>, exploring the <b>Model Context Protocol (MCP)</b> ecosystem, and creating lightweight <b>Windows & Android automation pipelines</b>.</p>
+      <p>我是一名专注于构建实用、高性能软件以解决现实世界痛点的开源工程师。我喜欢在最前沿的人工智能（AI）与日常开发效率之间架起桥梁。</p>
+      <p>🧠 <b>理念：</b>构建优雅、可靠且高度实用的工具。少一些复杂，多一些实用。</p>
+      <p>⚡ <b>当前专注：</b>设计动态 <b>AI Agents</b>，探索 <b>Model Context Protocol (MCP)</b> 生态，以及构建轻量级的 <b>Windows & Android 自动化流水线</b>。</p>
     </td>
     <td width="45%" valign="top">
-      <h4>💡 Specialties</h4>
+      <h4>💡 专业领域 / 特色</h4>
       <ul>
-        <li>🤖 <b>AI Integration:</b> Orchestrating LLMs (Claude, Gemini, OpenAI, GLM) & building custom AI Agents.</li>
-        <li>💻 <b>Desktop Engineering:</b> High-performance Windows developer tools and utility workflows.</li>
-        <li>📱 <b>Android Automation:</b> Streamlining setups using Scrcpy, ADB scripts, and automated touch injection.</li>
-        <li>⚙️ <b>Open Source:</b> Launching accessible software that streamlines everyday workflows.</li>
+        <li>🤖 <b>AI 集成：</b>编排主流大语言模型（Claude、Gemini、OpenAI、GLM）并构建定制化 AI Agents 架构。</li>
+        <li>💻 <b>桌面端开发：</b>打造高性能、高可用性的 Windows 开发者工具与实用提效工具。</li>
+        <li>📱 <b>Android 自动化：</b>利用 Scrcpy、ADB 脚本和自动化输入注入简化移动端自动化流程。</li>
+        <li>⚙️ <b>开源社区：</b>推出并持续维护简单、开箱即用的开源软件，赋能日常工作。</li>
       </ul>
     </td>
   </tr>
@@ -74,14 +74,14 @@
 
 ---
 
-### 🛠 Tech Stack & Toolkit
+### 🛠 技术栈与工具箱
 
 <table border="0" width="100%">
   <tr>
-    <th align="center" width="25%">💻 Languages</th>
-    <th align="center" width="25%">🤖 AI & Agents</th>
-    <th align="center" width="25%">🛠 DevOps & Environment</th>
-    <th align="center" width="25%">📱 Platforms & Frameworks</th>
+    <th align="center" width="25%">💻 编程语言</th>
+    <th align="center" width="25%">🤖 AI & 智能代理</th>
+    <th align="center" width="25%">🛠 DevOps 与环境</th>
+    <th align="center" width="25%">📱 平台与框架</th>
   </tr>
   <tr>
     <td valign="top" align="center">
@@ -124,7 +124,7 @@
 
 ---
 
-### 📊 GitHub Performance
+### 📊 GitHub 效能指标
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=moluhualuo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="185" alt="GitHub Stats" />
@@ -139,7 +139,7 @@
 <br/>
 
 <details>
-  <summary><b>🏆 Click to Reveal My GitHub Trophies</b></summary>
+  <summary><b>🏆 点击展开我的 GitHub 荣誉奖牌</b></summary>
   <br/>
   <p align="center">
     <img src="https://github-profile-trophy.vercel.app/?username=moluhualuo&theme=tokyonight&no-frame=true&row=2&column=4" alt="Trophies" />
@@ -148,16 +148,16 @@
 
 ---
 
-### 🎯 Key Goals
+### 🎯 核心目标
 
-- [x] **Continuously design useful open-source software**
-- [ ] **Establish robust local AI-Agent framework modules**
-- [ ] **Deliver high-quality MCP servers for multiple LLM tools**
-- [ ] **Collaborate on next-generation automation tools**
+- [x] **持续设计并开发实用的开源软件**
+- [ ] **建立稳健的本地多 Agent 核心协作框架模块**
+- [ ] **为多种 LLM 工具交付高质量的通用 MCP 服务端**
+- [ ] **积极协同开发下一代桌面/移动端自动化工具**
 
 ---
 
-### 📫 Let's Connect!
+### 📫 与我联系！
 
 <p align="center">
   <a href="https://github.com/moluhualuo">
@@ -166,6 +166,6 @@
 </p>
 
 <p align="center">
-  <sub><b>"Build something useful every day."</b></sub><br/>
-  <sub>Thanks for visiting! ❤️</sub>
+  <sub><b>"每天构建一些有用的东西。"</b></sub><br/>
+  <sub>感谢您的到访！❤️</sub>
 </p>
