@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="40%" stop-color="#4facfe"/>
+      <stop offset="70%" stop-color="#9b5de5"/>
+      <stop offset="100%" stop-color="#f15bb5"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="220" fill="url(#bg)" rx="16"/>
+  <rect width="800" height="220" fill="url(#grid)" rx="16"/>
+
+  <!-- decorative lines -->
+  <path d="M 60 0 Q 200 80 400 120 T 800 80" fill="none" stroke="#00F2FE" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M 0 160 Q 300 120 500 180 T 800 150" fill="none" stroke="#9b5de5" stroke-opacity="0.08" stroke-width="1.5"/>
+  <line x1="60" y1="215" x2="500" y2="215" stroke="url(#line1)" stroke-width="1.5"/>
+
+  <!-- nodes -->
+  <circle cx="130" cy="70" r="4" fill="#00F2FE" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="130" cy="70" r="10" fill="none" stroke="#00F2FE" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="680" cy="110" r="5" fill="#f15bb5" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="680" cy="110" r="12" fill="none" stroke="#f15bb5" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="400" cy="180" r="3" fill="#9b5de5" opacity="0.6"/>
+  <circle cx="400" cy="180" r="8" fill="none" stroke="#9b5de5" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- title -->
+  <text x="60" y="75" font-family="'Segoe UI',-apple-system,sans-serif" font-size="32" font-weight="800" fill="url(#title)" filter="url(#glow)">MoluHuaLuo</text>
+  <text x="60" y="115" font-family="'Segoe UI',-apple-system,sans-serif" font-size="16" font-weight="600" fill="#E2E8F0">花落 · 开源开发者</text>
+  <text x="60" y="148" font-family="'Segoe UI',-apple-system,sans-serif" font-size="13" fill="#94A3B8">AI Agents · MCP Ecosystem · Windows &amp; Android Automation</text>
+
+  <!-- badges area -->
+  <rect x="540" y="65" width="60" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="570" y="82" font-family="'Segoe UI',-apple-system,sans-serif" font-size="11" fill="#00F2FE" text-anchor="middle">C/C++</text>
+
+  <rect x="610" y="65" width="60" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="640" y="82" font-family="'Segoe UI',-apple-system,sans-serif" font-size="11" fill="#c084fc" text-anchor="middle">Python</text>
+
+  <rect x="680" y="65" width="60" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="710" y="82" font-family="'Segoe UI',-apple-system,sans-serif" font-size="11" fill="#fbbf24" text-anchor="middle">Java</text>
+
+  <rect x="540" y="100" width="60" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="570" y="117" font-family="'Segoe UI',-apple-system,sans-serif" font-size="11" fill="#34d399" text-anchor="middle">Vue</text>
+
+  <rect x="610" y="100" width="60" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="640" y="117" font-family="'Segoe UI',-apple-system,sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">TS</text>
+
+  <rect x="680" y="100" width="60" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="710" y="117" font-family="'Segoe UI',-apple-system,sans-serif" font-size="11" fill="#f472b6" text-anchor="middle">C#</text>
+
+  <!-- status -->
+  <text x="60" y="200" font-family="'Segoe UI',-apple-system,sans-serif" font-size="12" fill="#475569">
+    <tspan>MIT Licensed</tspan>
+    <tspan dx="12" fill="#334155">|</tspan>
+    <tspan dx="12">github.com/moluhualuo</tspan>
+  </text>
+</svg>
